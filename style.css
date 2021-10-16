@@ -25,12 +25,52 @@
 }
 
 body {
-    -webkit-animation: bgcolor 25s infinite;
-    animation: bgcolor 15s infinite;
+    -webkit-animation: bgcolor 35s infinite;
+    animation: bgcolor 25s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     margin:0;
     padding: 0;
 }
 
+h1  {
+font-family: stratos,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 100px;
+padding:30px 50px 20px 50px;
+
+}
+
+h4  {
+font-family: stratos,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+}
+
+
+.question {
+  padding: 10px 50px 20px 50px;
+}
+
+a{
+   font-family: stratos,sans-serif;
+font-weight: 400;
+font-style: normal;
+
+}
+
+
+
+.navbar {
+  padding:20px;
+}
+
+#name {
+    font-family: stratos,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 100px;
+}
 
