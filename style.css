@@ -64,7 +64,9 @@ font-style: normal;
 
 }
 
-
+.navbar-light .navbar-toggler {
+  color:#21252b;
+}
 
 
 .navbar {
@@ -77,5 +79,12 @@ font-weight: 700;
 font-style: normal;
 font-size: 100px;
 }
+
+h5  {
+  text-align: center;
+  padding-top: 20px;
+}
+
+
 
 

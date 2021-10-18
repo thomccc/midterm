@@ -24,6 +24,10 @@
     }
 }
 
+.navbar-light .navbar-toggler {
+  color:#21252b;
+}
+
 body {
     -webkit-animation: bgcolor 35s infinite;
     animation: bgcolor 25s infinite;
