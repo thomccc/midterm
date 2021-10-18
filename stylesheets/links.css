@@ -1,0 +1,101 @@
+@keyframes bgcolor {
+    0% {
+        background-color: #1FAC25
+    }
+
+    20% {
+        background-color: #FFE416
+    }
+
+    40% {
+        background-color: #FF6539
+    }
+
+    60% {
+        background-color: #FF4C38
+    }
+
+    80% {
+        background-color: #8758BE
+    }
+
+    100% {
+        background-color: #5CAEEB
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 35s infinite;
+    animation: bgcolor 25s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    margin:0;
+    padding: 0;
+    font-family: stratos,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1  {
+font-family: stratos,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 100px;
+padding:30px 50px 20px 50px;
+
+
+}
+
+h4  {
+font-family: stratos,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 30px;
+
+}
+
+
+.question {
+  padding: 10px 50px 20px 50px;
+
+}
+
+.fw-bold a{
+font-family: stratos,sans-serif;
+font-weight: 700;
+font-style: normal;
+color:#21252b;
+
+}
+
+.badge {
+  background-color: #21252b !important;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color:#21252b;
+}
+.nav-link.hover {
+  color:#f7f9fb;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #21252b;
+}
+
+.navbar {
+  padding:20px;
+}
+
+#name {
+    font-family: stratos,sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 100px;
+}
+

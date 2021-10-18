@@ -40,6 +40,7 @@ font-style: normal;
 font-size: 100px;
 padding:30px 50px 20px 50px;
 
+
 }
 
 h4  {
@@ -47,11 +48,13 @@ font-family: stratos,sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 30px;
+
 }
 
 
 .question {
   padding: 10px 50px 20px 50px;
+
 }
 
 a{
@@ -60,6 +63,7 @@ font-weight: 400;
 font-style: normal;
 
 }
+
 
 
 
@@ -73,4 +77,5 @@ font-weight: 700;
 font-style: normal;
 font-size: 100px;
 }
+
 
