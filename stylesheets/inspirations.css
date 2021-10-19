@@ -45,7 +45,7 @@ font-family: stratos,sans-serif;
 font-weight: 700;
 font-style: normal;
 font-size: 100px;
-padding:30px 50px 20px 50px;
+padding:30px 50px 5px 50px;
 
 
 }
@@ -55,6 +55,8 @@ font-family: stratos,sans-serif;
 font-weight: 400;
 font-style: normal;
 font-size: 30px;
+padding: 5px 50px 10px 50px;
+
 
 }
 
@@ -103,3 +105,38 @@ font-style: normal;
 font-size: 100px;
 }
 
+
+.container {
+  margin-top:20px;
+
+}
+
+.card {
+  margin: 20px 20px 20px 20px;
+}
+.btn {
+  background-color: #21252b;
+}
+.btn:hover {
+  background-color: #6c757d;
+}
+
+img {
+  padding:50px;
+}
+
+@media (max-width: 700px) {
+ h1 {
+  font-size:50px;
+  padding:20px 30px 5px 30px;
+
+ }
+
+ h4 {
+  font-size:18px;
+    padding: 5px 30px 15px 30px;
+
+ }
+
+
+ }
