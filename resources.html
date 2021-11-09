@@ -33,7 +33,7 @@
      <div class="container my-5">
       <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Colors</button>
+    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" >Colors</button>
   </li>
   <li class="nav-item" role="presentation">
     <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Images</button>
@@ -120,6 +120,31 @@
 </div>
     </div>
 
+
+
+      <div class="container">
+
+          <button type="button" class="btn btn-dark" id= "update-button">submit your recommendation here!</button>
+          <div class="card" id= "important-message">
+            <div class="card-body">
+              <form action="https://formspree.io/f/xvodjnyo" method="post">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Your recommendation</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
+                </div>
+                <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Send</button>
+
+              </form>
+            </div>
+          </div>
+
+      </div>
+
+
       <h5>© Thomas 2021 </h5>
 
 
@@ -127,6 +152,8 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src = "script.js"></script>
+
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

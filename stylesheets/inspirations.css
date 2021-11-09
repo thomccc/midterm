@@ -1,38 +1,9 @@
-@keyframes bgcolor {
-    0% {
-        background-color: #1FAC25
-    }
-
-    20% {
-        background-color: #FFE416
-    }
-
-    40% {
-        background-color: #FF6539
-    }
-
-    60% {
-        background-color: #FF4C38
-    }
-
-    80% {
-        background-color: #8758BE
-    }
-
-    100% {
-        background-color: #5CAEEB
-    }
-}
 
 .navbar-light .navbar-toggler {
   color:#21252b;
 }
 
 body {
-    -webkit-animation: bgcolor 35s infinite;
-    animation: bgcolor 25s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
     margin:0;
     padding: 0;
     font-family: stratos,sans-serif;
@@ -147,4 +118,6 @@ img {
   text-align: center;
   padding-top: 20px;
 }
+
+
 

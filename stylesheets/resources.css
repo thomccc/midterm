@@ -107,3 +107,10 @@ h5  {
   text-align: center;
   padding-top: 200px;
 }
+
+#important-message {
+  padding: 20px;
+  visibility: hidden;
+  text-align: center;
+}
+
