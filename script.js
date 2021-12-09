@@ -28,7 +28,10 @@ const app = {
         imageTitle: project.fields.image.fields.title,
         description:  project.fields.description,
         imageTwo: `http:${project.fields.imageTwo.fields.file.url}`,
-        textTwo: project.fields.textTwo// passing in the options obj i created above for the bug
+        textTwo: project.fields.textTwo,
+        imageThree: `http:${project.fields.imageThree.fields.file.url}`,
+        textThree: project.fields.textThree
+        // passing in the options obj i created above for the bug
       };
       // load the template for this item from a local file
       fetch('projectPage.mustache')
@@ -92,7 +95,6 @@ const app = {
   loadTemplateForProjectOnHome: () => fetch('projectOnHome.mustache').then(response => response.text()).then(template => template)
 
 };
-
 
 
 

@@ -4,18 +4,32 @@
     <div class="projectImage">
       <img src={{imageUrl}} class="img-fluid" title={{imageTitle}} />
     </div>
-    <div class="projectTitle">
-      {{ title }}
-    </div>
-    <div class="projectDescription">
+  </div>
+  <div class="col-6">
+    <div class="projectDescription d-flex justify-content-center">
       {{! This variable needs triple brackets because it's actually html, not just a string}}
       {{{ description }}}
-    </div class= "recOne">
-      <img src={{imageTwo}} class="img-fluid"  />
-      {{ textTwo }}
-
     </div>
-
+  </div>
+  <div class="col-10">
+    <div class="projectDescription d-flex justify-content-center">
+      <img src={{imageTwo}} class="img-fluid" />
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="projectDescription d-flex justify-content-center">
+      <a id = "slug-home" href={{textTwo}}>{{textTwo}}</a>
+    </div>
+  </div>
+   <div class="col-10">
+    <div class="projectDescription d-flex justify-content-center">
+      <img src={{imageThree}} class="img-fluid"  />
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="projectDescription d-flex justify-content-center">
+      <a id = "slug-home" href={{textThree}}>{{ textThree }}</a>
+    </div>
   </div>
 </div>
 

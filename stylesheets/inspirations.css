@@ -150,7 +150,11 @@ img {
 
 
 #slug-home {
-   text-decoration: none;
+   text-decoration: underline;
    color: #212529;
 }
 
+
+.projectDescription {
+  padding: 10px;
+}
