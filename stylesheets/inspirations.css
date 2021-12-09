@@ -154,6 +154,10 @@ img {
    color: #6d757d;
 }
 
+#slug-page {
+  text-decoration: underline;
+  color: #f8f9fa;
+}
 
 .projectDescription {
   padding: 10px;
