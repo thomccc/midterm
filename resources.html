@@ -28,103 +28,49 @@
         <a class="nav-link" href="https://readymag.com/cymstudio/me/" target="_blank">About me</a>
 
       </div>
+    </div>
     </nav>
 
-     <div class="container my-5">
-      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" >Colors</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Images</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Guidelines</button>
-  </li>
-</ul>
-<div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><ol class="list-group list-group-numbered">
-  <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold"><a href="https://pigment.shapefactory.co/" target="_blank">Pigment by Shapefactory</a></div>
-      <p>A unique way to generate fresh and vibrant colors based on lighting and pigment, instead of math.</p>
-    </div>
-    <span class="badge bg-primary rounded-pill">92</span>
-  </li>
-   </li> <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold"><a href="http://www.thedayscolor.com/" target="_blank">The Day's color</a></div>
-      <p>A unique way to generate fresh and vibrant colors based on lighting and pigment, instead of math.</p>
-    </div>
-    <span class="badge bg-primary rounded-pill">86</span>
-  </li>
-   <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold"><a href="https://www.colorsandfonts.com/" target="_blank">Colorsandfonts</a></div>
-      <p>Color and typography for Web Developers and Digital Designers.</p>
-    </div>
-    <span class="badge bg-primary rounded-pill">80</span>
+
+  <div class="container my-5" >
+    <div class="row justify-content-center">
 
 
-</ol></div>
-  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><ol class="list-group list-group-numbered">
-       <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold"><a href="https://freeillustrations.xyz/" target="_blank">freeillustrations</a></div>
-      <p>FIND FREE TO USE ILLUSTRATIONS</p>
-    </div>
-    <span class="badge bg-primary rounded-pill">88</span>  </li>
-       </li> <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold"><a href="https://icons8.com/upscaler" target="_blank">AI Image upscaler</a></div>
-      <p>Enhance image resolution with AI. Automatically and without losing quality.</p>
-    </div>
-    <span class="badge bg-primary rounded-pill">86</span>
-  </li>
-  <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold"><a href="https://jaymantri.com/" target="_blank">jay mantri</a></div>
-      <p>One photographer’s personal collection of images, given away for free.</p>
-    </div>
-    <span class="badge bg-primary rounded-pill">79</span>
-  </li>
-
-
-
-
-</ol></div>
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><ol class="list-group list-group-numbered">
-  <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold"><a href="https://material.io/design" target="_blank">MATERIAL DESIGN</a></div>
-      <p>A design language developed by Google.</p>
-    </div>
-    <span class="badge bg-primary rounded-pill">92</span>
-  </li>
-   </li> <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold"><a href="https://brandpad.io/" target="_blank">Brandpad</a></div>
-      <p>From brand delivery to usage and updates. Bring assets and guides on how to use them together in one dedicated place. Easily shared and automatically synced for all.</p>
-    </div>
-    <span class="badge bg-primary rounded-pill">80</span>
-  </li>
-   <li class="list-group-item d-flex justify-content-between align-items-start">
-    <div class="ms-2 me-auto">
-      <div class="fw-bold"><a href="https://developer.apple.com/design/human-interface-guidelines/" target="_blank">Apple human interface guidelines</a></div>
-      <p>Get in-depth information and UI resources for designing great apps that integrate seamlessly with Apple platforms.</p>
-    </div>
-    <span class="badge bg-primary rounded-pill">80</span>
-
-
-</ol></div>
-</div>
+    <div class="col-md-10">
+      <form >
+        <div class="form-floating mb-3">
+        <input type="text"  class="form-control" name="id" id="floatingInput" placeholder="some">
+        <label for="floatingInput">What genre are you looking for? Type "color" maybe?</label>
+        </div>
+        <input type="submit" class="btn btn-light" >
+      </form>
     </div>
 
+     <div class="col-md-10">
+    <table  class="table table-hover table-light" >
+      <thead>
+        <tr>
+          <td>Type</td>
+          <td>First Choice</td>
+          <td>Second Choice</td>
+          <td>Third Choice</td>
+        </tr>
+      </thead>
+      <tbody data-sheetdb-url="https://sheetdb.io/api/v1/dcroyobcnir8u"
+             data-sheetdb-query-string="id">
+        <tr>
+          <td><h3>{{id}}</h3></td>
+          <td><h3>{{name}}</h3></td>
+          <td><h3>{{name-two}}</h3></td>
+          <td><h3>{{name-three}}</h3></td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="https://sheetdb.io/handlebars.js"></script>
+      </div>
 
-
-      <div class="container">
-
-          <button type="button" class="btn btn-dark" id= "update-button">submit your recommendation here!</button>
+       <div class="col-md-10">
+       <button type="button" class="btn btn-dark" id= "update-button">submit your recommendation here!</button>
           <div class="card" id= "important-message">
             <div class="card-body">
               <form action="https://formspree.io/f/xvodjnyo" method="post">
@@ -139,10 +85,24 @@
                 <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Send</button>
 
               </form>
+
             </div>
           </div>
+        </div>
 
-      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
 
 
       <h5>© Thomas 2021 </h5>
